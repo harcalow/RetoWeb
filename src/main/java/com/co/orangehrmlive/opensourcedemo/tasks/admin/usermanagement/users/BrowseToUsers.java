@@ -17,7 +17,6 @@ public class BrowseToUsers implements Task {
                 Click.on(ADMIN_USERMANAGEMENT_USERS)
         );
     }
-
     public static BrowseToUsers browseToUsers(){
         return new BrowseToUsers();
     }

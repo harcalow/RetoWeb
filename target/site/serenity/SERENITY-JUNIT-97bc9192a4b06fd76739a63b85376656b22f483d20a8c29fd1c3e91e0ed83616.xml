@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Yo como usuario quiero ingresar a la página con mi usuario y contraseña." skipped="0" tests="4" time="34.78" timestamp="2021-10-22 05:38:33"><testcase name="Inicio de sesión exitoso"/><testcase name="Inicio  de sesión donde el password es inválido"/><testcase name="Inicio  de sesión donde el usuario es inválido"/><testcase name="Inicio  de sesión donde no se introducen credenciales"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Yo como usuario quiero ingresar a la página con mi usuario y contraseña." skipped="0" tests="4" time="38.65" timestamp="2021-10-22 08:28:18"><testcase name="Inicio de sesión exitoso"><failure message="&#10;Expected: &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">
+Expected: &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>
+Expected: &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+com.orangehrmlive.opensourcedemo.stepdefinition.login.LoginStepDefinition.elSistemaLeDaráAccesoYLoLlevaraAlHomeDeLaPágina(LoginStepDefinition.java:44)&#13;
+✽.El sistema le dará acceso y lo llevara al home de la página.(file:///C:/Users/harol/Documents/Trabajo/Cursos/Automatizacion/Servicios/RetoWeb/RetoWeb/src/test/resources/features.webui/login/login.feature:11)&#13;
+</system-err></testcase><testcase name="Inicio  de sesión donde el password es inválido"/><testcase name="Inicio  de sesión donde el usuario es inválido"/><testcase name="Inicio  de sesión donde no se introducen credenciales"/></testsuite>

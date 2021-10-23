@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-10-2021 17:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-10-2021 20:28</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Inicio de sesi&oacute;n exitoso
+                                <span class="failing-color">Inicio de sesi&oacute;n exitoso
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -205,6 +205,45 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.orangehrmlive.opensourcedemo.stepdefinition.login.LoginStepDefinition.elSistemaLeDaráAccesoYLoLlevaraAlHomeDeLaPágina(LoginStepDefinition.java:44)<br />✽.El sistema le dará acceso y lo llevara al home de la página.(file:///C:/Users/harol/Documents/Trabajo/Cursos/Automatizacion/Servicios/RetoWeb/RetoWeb/src/test/resources/features.webui/login/login.feature:11)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1311376136913455938.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="a8fd6ded05954b9049ffbb7e32249db53abf191e7939710e56449b06d210a1d6.png" title=" Given El empleado ingresa a la p&aacute;gina principal donde se le solicita usuario y contrase&ntilde;a" width="1366"/>
@@ -220,12 +259,11 @@
                 <img src="a71bc7736199902b733431a72c4923503648e9cb068ae66246fd58a5fef57269.png" title=" Harold enters 'admin123' into Password" width="1366"/>
                 <img src="9a3f6c61d8841746fa7d297405e13cbc55fe9ef699eb4ff732d360d946dd386c.png" title=" Harold enters 'admin123' into Password (completed)" width="1366"/>
                 <img src="9a3f6c61d8841746fa7d297405e13cbc55fe9ef699eb4ff732d360d946dd386c.png" title=" Harold clicks on Login" width="1366"/>
-                <img src="d9f79cff1b11d077d41dcecd48c3181046748af4469c4dfaa230e24e78362208.png" title=" Harold clicks on Login (completed)" width="1366"/>
-                <img src="d9f79cff1b11d077d41dcecd48c3181046748af4469c4dfaa230e24e78362208.png" title=" Harold fill login (completed)" width="1366"/>
-                <img src="d9f79cff1b11d077d41dcecd48c3181046748af4469c4dfaa230e24e78362208.png" title=" When El empleado introduce en el campo usuario el usuario correcto y el campo password la contrase&ntilde;a correcta y dar&aacute; clic en el bot&oacute;n login (completed)" width="1366"/>
-                <img src="d9f79cff1b11d077d41dcecd48c3181046748af4469c4dfaa230e24e78362208.png" title=" Then El sistema le dar&aacute; acceso y lo llevara al home de la p&aacute;gina." width="1366"/>
-                <img src="d9f79cff1b11d077d41dcecd48c3181046748af4469c4dfaa230e24e78362208.png" title=" Then login home should be (true)" width="1366"/>
-                <img src="d9f79cff1b11d077d41dcecd48c3181046748af4469c4dfaa230e24e78362208.png" title=" Then El sistema le dar&aacute; acceso y lo llevara al home de la p&aacute;gina. (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="2f6be436e5a524e5cccc88bf44434387305c4501ea8d04ab1df37f0f34b7b448.png" title=" Harold clicks on Login (completed)" width="1366"/>
+                <img src="2f6be436e5a524e5cccc88bf44434387305c4501ea8d04ab1df37f0f34b7b448.png" title=" Harold fill login (completed)" width="1366"/>
+                <img src="2f6be436e5a524e5cccc88bf44434387305c4501ea8d04ab1df37f0f34b7b448.png" title=" When El empleado introduce en el campo usuario el usuario correcto y el campo password la contrase&ntilde;a correcta y dar&aacute; clic en el bot&oacute;n login (completed)" width="1366"/>
+                <img src="2f6be436e5a524e5cccc88bf44434387305c4501ea8d04ab1df37f0f34b7b448.png" title=" Then El sistema le dar&aacute; acceso y lo llevara al home de la p&aacute;gina." width="1366"/>
+                <img src="2f6be436e5a524e5cccc88bf44434387305c4501ea8d04ab1df37f0f34b7b448.png" title=" Then login home should be (true): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 
