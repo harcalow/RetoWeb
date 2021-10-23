@@ -41,8 +41,19 @@ public class WorkShift extends PageObject {
             .the("Save")
             .located(id("btnSave"));
 
+
     //For validations.
     public static final Target MESSAGE_VALIDATION= Target
             .the("Message Validation")
             .located(className("message"));
+
+    public static final Target DELETE= Target
+            .the("Button Delete ")
+            .located(id("btnDelete"));
+
+    public static final Target OK= Target
+            .the("Ok")
+            .located(xpath("//*[@id=\"dialogDeleteBtn\"]"));
+
+
 }

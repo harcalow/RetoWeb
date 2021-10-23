@@ -45,7 +45,6 @@ public class CreateWorkShifts implements Task {
     }
 
 
-
     public static CreateWorkShifts createWorkShifts(){
         return new CreateWorkShifts();
     }

@@ -10,6 +10,7 @@ import static com.co.orangehrmlive.opensourcedemo.questions.admin.job.workshift.
 import static com.co.orangehrmlive.opensourcedemo.questions.admin.usermanagement.users.UsersTable.tableValidation;
 import static com.co.orangehrmlive.opensourcedemo.tasks.admin.job.workshift.BrowseToWorkShift.browseToWorkShift;
 import static com.co.orangehrmlive.opensourcedemo.tasks.admin.job.workshift.CreateWorkShifts.createWorkShifts;
+import static com.co.orangehrmlive.opensourcedemo.tasks.admin.job.workshift.DeleteWorkShifts.deleteWorkShifts;
 import static com.co.orangehrmlive.opensourcedemo.tasks.admin.usermanagement.users.SearchByStatus.searchByStatus;
 import static com.co.orangehrmlive.opensourcedemo.tasks.landingpage.OpenLandingPage.openLandingPage;
 import static com.co.orangehrmlive.opensourcedemo.tasks.login.FillLogin.fillLogin;
@@ -47,6 +48,7 @@ public class WorkShiftStepDefinition extends Setup {
     }
     @Then("En la tabla work shifs aparecerá el turno creado.")
     public void enLaTablaWorkShifsApareceráElTurnoCreado() {
+
         theActorInTheSpotlight().should(
                 seeThat(workshiftMessage()
                         .is(), equalTo(true)
@@ -56,6 +58,9 @@ public class WorkShiftStepDefinition extends Setup {
                         )
         );
 
+        theActorInTheSpotlight().attemptsTo(
+                deleteWorkShifts()
+        );
 
 
     }
