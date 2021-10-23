@@ -10,6 +10,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 public class Setup {
 
+
     @Managed()
     protected WebDriver browser;
 

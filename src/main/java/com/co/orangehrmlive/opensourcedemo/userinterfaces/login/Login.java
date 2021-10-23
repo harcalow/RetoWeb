@@ -1,4 +1,4 @@
-package com.co.orangehrmlive.opensourcedemo.userinterfaces.loginform;
+package com.co.orangehrmlive.opensourcedemo.userinterfaces.login;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;

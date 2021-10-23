@@ -1,7 +1,7 @@
 package com.co.orangehrmlive.opensourcedemo.questions.login;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import static com.co.orangehrmlive.opensourcedemo.userinterfaces.loginform.Login.MESSAGE_VALIDATION;
+import static com.co.orangehrmlive.opensourcedemo.userinterfaces.login.Login.MESSAGE_VALIDATION;
 
 public class LoginMessage implements Question<Boolean> {
 

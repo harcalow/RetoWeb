@@ -3,7 +3,7 @@ package com.co.orangehrmlive.opensourcedemo.questions.login;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-import static com.co.orangehrmlive.opensourcedemo.userinterfaces.loginform.Login.*;
+import static com.co.orangehrmlive.opensourcedemo.userinterfaces.login.Login.*;
 
 public class LoginHome implements Question<Boolean> {
 

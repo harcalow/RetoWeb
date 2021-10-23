@@ -1,4 +1,4 @@
-package com.co.orangehrmlive.opensourcedemo.tasks.loginform;
+package com.co.orangehrmlive.opensourcedemo.tasks.login;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -6,19 +6,19 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 
-import static com.co.orangehrmlive.opensourcedemo.userinterfaces.loginform.Login.*;
+import static com.co.orangehrmlive.opensourcedemo.userinterfaces.login.Login.*;
 
-public class FullLogin implements Task {
+public class FillLogin implements Task {
 
     private String userName;
     private String password;
 
-    public FullLogin usingUserName(String userName) {
+    public FillLogin usingUserName(String userName) {
         this.userName = userName;
         return this;
     }
 
-    public FullLogin usingPassword(String password) {
+    public FillLogin usingPassword(String password) {
         this.password = password;
         return this;
     }
@@ -39,7 +39,7 @@ public class FullLogin implements Task {
 
     }
 
-    public static FullLogin fillPracticeForm(){
-        return new FullLogin();
+    public static FillLogin fillLogin(){
+        return new FillLogin();
     }
 }
