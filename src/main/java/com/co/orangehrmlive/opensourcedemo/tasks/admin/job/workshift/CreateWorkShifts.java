@@ -2,14 +2,12 @@ package com.co.orangehrmlive.opensourcedemo.tasks.admin.job.workshift;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Clear;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 import org.openqa.selenium.By;
 
 import static com.co.orangehrmlive.opensourcedemo.userinterfaces.admin.job.workshift.WorkShift.*;
-import static com.co.orangehrmlive.opensourcedemo.userinterfaces.login.Login.PASSWORD;
 
 public class CreateWorkShifts implements Task {
     private String nameWorkShift;
