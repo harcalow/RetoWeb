@@ -36,7 +36,7 @@ public class WorkShiftStepDefinition extends Setup {
         );
     }
 
-    @When("El empleado seleccionara add e ingresara nombre del turno en el campo correspondiente posteriormente a esto escogerá hora de inicio y final para finalizar escoge el o los empleados que se asignaran con la operación de selecciona el empleado y se le da en add luego de esto se confirma los datos con save.")
+    @When("El empleado seleccionara add e ingresara nombre del turno en el campo correspondiente posteriormente a esto escogerá hora de inicio y final para finalizar escoge el o los empleados que se asignaran con la operación de seleccionar el empleado y se le da en add luego de esto se confirma los datos con save.")
     public void elEmpleadoSeleccionaraAddEIngresaraNombreDelTurnoEnElCampoCorrespondientePosteriormenteAEstoEscogeraHoraDeInicioYFinalParaFinalizarEscogeElOLosEmpleadosQueSeAsignaranConLaOperacionDeSeleccionaElEmpleadoYSeLeDaEnAddLuegoDeEstoSeConfirmaLosDatosConSave() {
         theActorInTheSpotlight().attemptsTo(
                 createWorkShifts()
@@ -46,7 +46,7 @@ public class WorkShiftStepDefinition extends Setup {
         );
 
     }
-    @Then("En la tabla work shifs aparecerá el turno creado.")
+    @Then("En la tabla work shifs aparecerá el turno creado y un mensaje de validación además este se debe seleccionar y borrar.")
     public void enLaTablaWorkShifsApareceráElTurnoCreado() {
 
         theActorInTheSpotlight().should(
